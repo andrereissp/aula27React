@@ -17,8 +17,8 @@ function App() {
   };
 
   return (
-    <div style={{background:'gray', justifyContent:'center', margin:'5px'}}>
-      <h1 style={{justifyContent:'center', display:'flex'}}>Contador: {contador}</h1>
+    <div>
+      <h1>Contador: {contador}</h1>
       <button onClick={() => setContador(contador + 1)} style={{color:'black', backgroundColor:'blue'}} >+</button>
 
       <div>
